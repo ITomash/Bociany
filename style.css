@@ -1,3 +1,37 @@
-body {
+body { 
+    padding-top: 100px;
+    background-image: url("img/bocian.jpg");
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media screen and (max-width: 768px) {
+    body { 
+        padding-top: 80px;
+    }
+}
+.navbar-default {
 
+}
+.navbar-nav {
+    margin: 0 auto 0 25%;
+    display: table;
+    table-layout: fixed;
+    float: none;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666;
+    border-top: 2px solid #333;
+}
+footer > div > p {
+    width: 300px;
+    margin: 20px auto;
 }
