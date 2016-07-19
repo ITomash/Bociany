@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 body { 
     padding-top: 100px;
     background-image: url("img/bocian.jpg");
@@ -8,11 +11,20 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    font-family: Lato, 'sans-serif';
+    font-size: 16px;
 }
 @media screen and (max-width: 768px) {
     body { 
         padding-top: 80px;
     }
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -62px;
 }
 .navbar-default {
 
@@ -23,15 +35,49 @@ body {
     table-layout: fixed;
     float: none;
 }
+.navbar-nav>li:hover {
+    background-color: #999;
+}
 .footer {
     position: relative;
-    bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #666;
+    background-color: #999;
     border-top: 2px solid #333;
 }
 footer > div > p {
     width: 300px;
+    margin: 20px auto 0;
+}
+.boxMail {
+    text-align: center;
+    padding: 25px 0;
+    border: 1px solid #000; 
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
     margin: 20px auto;
+}
+.boxPhone {
+    text-align: center;
+    padding: 25px 0;
+    border: 1px solid #000; 
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
+.boxAddress {
+    text-align: center;
+    padding: 25px 0;
+    border: 1px solid #000; 
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.rowne_boxy {
+    height: 200px;
+    line-height: 10px;
 }
